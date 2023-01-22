@@ -22,9 +22,10 @@
 		651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEED297CE6460043267D /* TableViewControllerLogger.swift */; };
 		651DCEF3297CE6700043267D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED7297CC3B60043267D /* Info.plist */; };
 		65A91C36297D4FEE004E8C7A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A91C35297D4FEE004E8C7A /* CellView.swift */; };
-		65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CD297CEFC7009489BB /* ChangeColor.swift */; };
-		65E5A60F297D56340054A48F /* BoardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* BoardFunctions.swift */; };
+		65B096CE297CEFC7009489BB /* ModeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CD297CEFC7009489BB /* ModeLogic.swift */; };
 		65E5A611297D5AE60054A48F /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5A610297D5AE60054A48F /* Turn.swift */; };
+		65E5A613297D7ED10054A48F /* BoardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5A612297D7ED10054A48F /* BoardFunctions.swift */; };
+		65E5A614297D7F510054A48F /* Konnekt4.app in Resources */ = {isa = PBXBuildFile; fileRef = 651DCEC6297CC3B40043267D /* Konnekt4.app */; };
 		6835C4C8EE01C3B58CED270F /* Pods_ConnectFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,9 +47,9 @@
 		651DCEEC297CE6460043267D /* ErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
 		651DCEED297CE6460043267D /* TableViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerLogger.swift; sourceTree = "<group>"; };
 		65A91C35297D4FEE004E8C7A /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
-		65B096CD297CEFC7009489BB /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
-		65B096CF297CF014009489BB /* BoardFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFunctions.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65B096CD297CEFC7009489BB /* ModeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeLogic.swift; sourceTree = "<group>"; };
 		65E5A610297D5AE60054A48F /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		65E5A612297D7ED10054A48F /* BoardFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFunctions.swift; sourceTree = "<group>"; };
 		81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.release.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.release.xcconfig"; sourceTree = "<group>"; };
 		B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -111,8 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				651DCEE4297CDA860043267D /* Board.swift */,
-				65B096CD297CEFC7009489BB /* ChangeColor.swift */,
-				65B096CF297CF014009489BB /* BoardFunctions.swift */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -156,6 +155,8 @@
 		651DCEE2297CD8EC0043267D /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				65E5A612297D7ED10054A48F /* BoardFunctions.swift */,
+				65B096CD297CEFC7009489BB /* ModeLogic.swift */,
 				65E5A610297D5AE60054A48F /* Turn.swift */,
 			);
 			path = Logic;
@@ -252,6 +253,7 @@
 				651DCED6297CC3B60043267D /* LaunchScreen.storyboard in Resources */,
 				651DCED3297CC3B60043267D /* Assets.xcassets in Resources */,
 				651DCED1297CC3B40043267D /* Main.storyboard in Resources */,
+				65E5A614297D7F510054A48F /* Konnekt4.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,9 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				651DCEE7297CDAA40043267D /* ViewAssets.swift in Sources */,
-				65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */,
+				65B096CE297CEFC7009489BB /* ModeLogic.swift in Sources */,
 				651DCEEF297CE6460043267D /* AppTimer.swift in Sources */,
-				65E5A60F297D56340054A48F /* BoardFunctions.swift in Sources */,
 				651DCECE297CC3B40043267D /* HomeViewController.swift in Sources */,
 				651DCECA297CC3B40043267D /* AppDelegate.swift in Sources */,
 				65E5A611297D5AE60054A48F /* Turn.swift in Sources */,
@@ -298,6 +299,7 @@
 				651DCEE5297CDA860043267D /* Board.swift in Sources */,
 				65A91C36297D4FEE004E8C7A /* CellView.swift in Sources */,
 				651DCEEE297CE6460043267D /* Alerts.swift in Sources */,
+				65E5A613297D7ED10054A48F /* BoardFunctions.swift in Sources */,
 				651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */,
 				651DCECC297CC3B40043267D /* SceneDelegate.swift in Sources */,
 				651DCEF1297CE6460043267D /* ErrorExtensions.swift in Sources */,
