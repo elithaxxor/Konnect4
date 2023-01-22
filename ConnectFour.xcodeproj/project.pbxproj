@@ -13,9 +13,21 @@
 		651DCED1297CC3B40043267D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651DCECF297CC3B40043267D /* Main.storyboard */; };
 		651DCED3297CC3B60043267D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED2297CC3B60043267D /* Assets.xcassets */; };
 		651DCED6297CC3B60043267D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED4297CC3B60043267D /* LaunchScreen.storyboard */; };
+		651DCEE5297CDA860043267D /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEE4297CDA860043267D /* Board.swift */; };
+		651DCEE7297CDAA40043267D /* ViewAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEE6297CDAA40043267D /* ViewAssets.swift */; };
+		651DCEEE297CE6460043267D /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEE9297CE6450043267D /* Alerts.swift */; };
+		651DCEEF297CE6460043267D /* AppTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEEA297CE6450043267D /* AppTimer.swift */; };
+		651DCEF0297CE6460043267D /* ViewControllerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEEB297CE6460043267D /* ViewControllerLogger.swift */; };
+		651DCEF1297CE6460043267D /* ErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEEC297CE6460043267D /* ErrorExtensions.swift */; };
+		651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEED297CE6460043267D /* TableViewControllerLogger.swift */; };
+		651DCEF3297CE6700043267D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED7297CC3B60043267D /* Info.plist */; };
+		65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CD297CEFC7009489BB /* ChangeColor.swift */; };
+		65B096D0297CF014009489BB /* ResetBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* ResetBoard.swift */; };
+		6835C4C8EE01C3B58CED270F /* Pods_ConnectFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06445BA7D3B0EBE89FAB9C8A /* Pods-ConnectFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.debug.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.debug.xcconfig"; sourceTree = "<group>"; };
 		651DCEC6297CC3B40043267D /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651DCEC9297CC3B40043267D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651DCECB297CC3B40043267D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,17 @@
 		651DCED2297CC3B60043267D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651DCED5297CC3B60043267D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		651DCED7297CC3B60043267D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651DCEE4297CDA860043267D /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		651DCEE6297CDAA40043267D /* ViewAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAssets.swift; sourceTree = "<group>"; };
+		651DCEE9297CE6450043267D /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		651DCEEA297CE6450043267D /* AppTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTimer.swift; sourceTree = "<group>"; };
+		651DCEEB297CE6460043267D /* ViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogger.swift; sourceTree = "<group>"; };
+		651DCEEC297CE6460043267D /* ErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
+		651DCEED297CE6460043267D /* TableViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerLogger.swift; sourceTree = "<group>"; };
+		65B096CD297CEFC7009489BB /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
+		65B096CF297CF014009489BB /* ResetBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetBoard.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.release.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.release.xcconfig"; sourceTree = "<group>"; };
+		B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6835C4C8EE01C3B58CED270F /* Pods_ConnectFour.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D734CF35F803A1CF1DDD2AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		651DCEBD297CC3B40043267D = {
 			isa = PBXGroup;
 			children = (
 				651DCEC8297CC3B40043267D /* ConnectFour */,
 				651DCEC7297CC3B40043267D /* Products */,
+				A4194C050421EF0C691D5B3E /* Pods */,
+				3D734CF35F803A1CF1DDD2AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,97 @@
 		651DCEC8297CC3B40043267D /* ConnectFour */ = {
 			isa = PBXGroup;
 			children = (
+				651DCED7297CC3B60043267D /* Info.plist */,
+				651DCEDF297CD8C40043267D /* Controller */,
+				651DCEE3297CDA5B0043267D /* Model */,
+				651DCEE2297CD8EC0043267D /* New Group */,
+				651DCEE1297CD8DE0043267D /* Assets */,
+				651DCEE0297CD8D20043267D /* View */,
+				651DCEDE297CD8B80043267D /* Title  */,
+				651DCEDD297CD89F0043267D /* Board */,
+				651DCEE8297CE6370043267D /* Extensions */,
+			);
+			path = ConnectFour;
+			sourceTree = "<group>";
+		};
+		651DCEDD297CD89F0043267D /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				651DCEE4297CDA860043267D /* Board.swift */,
+				65B096CD297CEFC7009489BB /* ChangeColor.swift */,
+				65B096CF297CF014009489BB /* ResetBoard.swift */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		651DCEDE297CD8B80043267D /* Title  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Title ";
+			sourceTree = "<group>";
+		};
+		651DCEDF297CD8C40043267D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				651DCECD297CC3B40043267D /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		651DCEE0297CD8D20043267D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		651DCEE1297CD8DE0043267D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				651DCEC9297CC3B40043267D /* AppDelegate.swift */,
 				651DCECB297CC3B40043267D /* SceneDelegate.swift */,
-				651DCECD297CC3B40043267D /* ViewController.swift */,
 				651DCECF297CC3B40043267D /* Main.storyboard */,
 				651DCED2297CC3B60043267D /* Assets.xcassets */,
 				651DCED4297CC3B60043267D /* LaunchScreen.storyboard */,
-				651DCED7297CC3B60043267D /* Info.plist */,
+				651DCEE6297CDAA40043267D /* ViewAssets.swift */,
 			);
-			path = ConnectFour;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		651DCEE2297CD8EC0043267D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		651DCEE3297CDA5B0043267D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		651DCEE8297CE6370043267D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				651DCEE9297CE6450043267D /* Alerts.swift */,
+				651DCEEA297CE6450043267D /* AppTimer.swift */,
+				651DCEEC297CE6460043267D /* ErrorExtensions.swift */,
+				651DCEED297CE6460043267D /* TableViewControllerLogger.swift */,
+				651DCEEB297CE6460043267D /* ViewControllerLogger.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A4194C050421EF0C691D5B3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06445BA7D3B0EBE89FAB9C8A /* Pods-ConnectFour.debug.xcconfig */,
+				81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 651DCEDA297CC3B60043267D /* Build configuration list for PBXNativeTarget "ConnectFour" */;
 			buildPhases = (
+				91FD84980B4EA863BB90FFED /* [CP] Check Pods Manifest.lock */,
 				651DCEC2297CC3B40043267D /* Sources */,
 				651DCEC3297CC3B40043267D /* Frameworks */,
 				651DCEC4297CC3B40043267D /* Resources */,
@@ -125,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651DCEF3297CE6700043267D /* Info.plist in Resources */,
 				651DCED6297CC3B60043267D /* LaunchScreen.storyboard in Resources */,
 				651DCED3297CC3B60043267D /* Assets.xcassets in Resources */,
 				651DCED1297CC3B40043267D /* Main.storyboard in Resources */,
@@ -133,14 +251,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		91FD84980B4EA863BB90FFED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConnectFour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		651DCEC2297CC3B40043267D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				651DCEE7297CDAA40043267D /* ViewAssets.swift in Sources */,
+				65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */,
+				65B096D0297CF014009489BB /* ResetBoard.swift in Sources */,
+				651DCEEF297CE6460043267D /* AppTimer.swift in Sources */,
 				651DCECE297CC3B40043267D /* ViewController.swift in Sources */,
 				651DCECA297CC3B40043267D /* AppDelegate.swift in Sources */,
+				651DCEF0297CE6460043267D /* ViewControllerLogger.swift in Sources */,
+				651DCEE5297CDA860043267D /* Board.swift in Sources */,
+				651DCEEE297CE6460043267D /* Alerts.swift in Sources */,
+				651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */,
 				651DCECC297CC3B40043267D /* SceneDelegate.swift in Sources */,
+				651DCEF1297CE6460043267D /* ErrorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +434,7 @@
 		};
 		651DCEDB297CC3B60043267D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06445BA7D3B0EBE89FAB9C8A /* Pods-ConnectFour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +463,7 @@
 		};
 		651DCEDC297CC3B60043267D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
