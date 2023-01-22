@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		651DCECA297CC3B40043267D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEC9297CC3B40043267D /* AppDelegate.swift */; };
 		651DCECC297CC3B40043267D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCECB297CC3B40043267D /* SceneDelegate.swift */; };
-		651DCECE297CC3B40043267D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCECD297CC3B40043267D /* ViewController.swift */; };
+		651DCECE297CC3B40043267D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCECD297CC3B40043267D /* HomeViewController.swift */; };
 		651DCED1297CC3B40043267D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651DCECF297CC3B40043267D /* Main.storyboard */; };
 		651DCED3297CC3B60043267D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED2297CC3B60043267D /* Assets.xcassets */; };
 		651DCED6297CC3B60043267D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED4297CC3B60043267D /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEED297CE6460043267D /* TableViewControllerLogger.swift */; };
 		651DCEF3297CE6700043267D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED7297CC3B60043267D /* Info.plist */; };
 		65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CD297CEFC7009489BB /* ChangeColor.swift */; };
-		65B096D0297CF014009489BB /* ResetBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* ResetBoard.swift */; };
+		65B096D0297CF014009489BB /* BoardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* BoardFunctions.swift */; };
 		6835C4C8EE01C3B58CED270F /* Pods_ConnectFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +31,7 @@
 		651DCEC6297CC3B40043267D /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651DCEC9297CC3B40043267D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651DCECB297CC3B40043267D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		651DCECD297CC3B40043267D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		651DCECD297CC3B40043267D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		651DCED0297CC3B40043267D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		651DCED2297CC3B60043267D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		651DCED5297CC3B60043267D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		651DCEEC297CE6460043267D /* ErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
 		651DCEED297CE6460043267D /* TableViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerLogger.swift; sourceTree = "<group>"; };
 		65B096CD297CEFC7009489BB /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
-		65B096CF297CF014009489BB /* ResetBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetBoard.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65B096CF297CF014009489BB /* BoardFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFunctions.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.release.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.release.xcconfig"; sourceTree = "<group>"; };
 		B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,7 +108,7 @@
 			children = (
 				651DCEE4297CDA860043267D /* Board.swift */,
 				65B096CD297CEFC7009489BB /* ChangeColor.swift */,
-				65B096CF297CF014009489BB /* ResetBoard.swift */,
+				65B096CF297CF014009489BB /* BoardFunctions.swift */,
 			);
 			path = Board;
 			sourceTree = "<group>";
@@ -123,7 +123,7 @@
 		651DCEDF297CD8C40043267D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				651DCECD297CC3B40043267D /* ViewController.swift */,
+				651DCECD297CC3B40043267D /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -283,9 +283,9 @@
 			files = (
 				651DCEE7297CDAA40043267D /* ViewAssets.swift in Sources */,
 				65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */,
-				65B096D0297CF014009489BB /* ResetBoard.swift in Sources */,
+				65B096D0297CF014009489BB /* BoardFunctions.swift in Sources */,
 				651DCEEF297CE6460043267D /* AppTimer.swift in Sources */,
-				651DCECE297CC3B40043267D /* ViewController.swift in Sources */,
+				651DCECE297CC3B40043267D /* HomeViewController.swift in Sources */,
 				651DCECA297CC3B40043267D /* AppDelegate.swift in Sources */,
 				651DCEF0297CE6460043267D /* ViewControllerLogger.swift in Sources */,
 				651DCEE5297CDA860043267D /* Board.swift in Sources */,
