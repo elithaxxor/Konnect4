@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:ConnectFour.xcodeproj">
+      location = "group:/Users/adelal-aali/Documents/ConnectFour/Konnekt4.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

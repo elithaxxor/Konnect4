@@ -21,14 +21,16 @@
 		651DCEF1297CE6460043267D /* ErrorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEEC297CE6460043267D /* ErrorExtensions.swift */; };
 		651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651DCEED297CE6460043267D /* TableViewControllerLogger.swift */; };
 		651DCEF3297CE6700043267D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 651DCED7297CC3B60043267D /* Info.plist */; };
+		65A91C36297D4FEE004E8C7A /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65A91C35297D4FEE004E8C7A /* CellView.swift */; };
 		65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CD297CEFC7009489BB /* ChangeColor.swift */; };
-		65B096D0297CF014009489BB /* BoardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* BoardFunctions.swift */; };
+		65E5A60F297D56340054A48F /* BoardFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B096CF297CF014009489BB /* BoardFunctions.swift */; };
+		65E5A611297D5AE60054A48F /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E5A610297D5AE60054A48F /* Turn.swift */; };
 		6835C4C8EE01C3B58CED270F /* Pods_ConnectFour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06445BA7D3B0EBE89FAB9C8A /* Pods-ConnectFour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.debug.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.debug.xcconfig"; sourceTree = "<group>"; };
-		651DCEC6297CC3B40043267D /* ConnectFour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConnectFour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651DCEC6297CC3B40043267D /* Konnekt4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Konnekt4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		651DCEC9297CC3B40043267D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		651DCECB297CC3B40043267D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		651DCECD297CC3B40043267D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -43,8 +45,10 @@
 		651DCEEB297CE6460043267D /* ViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerLogger.swift; sourceTree = "<group>"; };
 		651DCEEC297CE6460043267D /* ErrorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtensions.swift; sourceTree = "<group>"; };
 		651DCEED297CE6460043267D /* TableViewControllerLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerLogger.swift; sourceTree = "<group>"; };
+		65A91C35297D4FEE004E8C7A /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 		65B096CD297CEFC7009489BB /* ChangeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeColor.swift; sourceTree = "<group>"; };
 		65B096CF297CF014009489BB /* BoardFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardFunctions.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65E5A610297D5AE60054A48F /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
 		81A557C3BBE7E0ACED722467 /* Pods-ConnectFour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectFour.release.xcconfig"; path = "Target Support Files/Pods-ConnectFour/Pods-ConnectFour.release.xcconfig"; sourceTree = "<group>"; };
 		B475D54AAF5D6C75B4FABBC7 /* Pods_ConnectFour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectFour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,7 +86,7 @@
 		651DCEC7297CC3B40043267D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				651DCEC6297CC3B40043267D /* ConnectFour.app */,
+				651DCEC6297CC3B40043267D /* Konnekt4.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,7 +97,7 @@
 				651DCED7297CC3B60043267D /* Info.plist */,
 				651DCEDF297CD8C40043267D /* Controller */,
 				651DCEE3297CDA5B0043267D /* Model */,
-				651DCEE2297CD8EC0043267D /* New Group */,
+				651DCEE2297CD8EC0043267D /* Logic */,
 				651DCEE1297CD8DE0043267D /* Assets */,
 				651DCEE0297CD8D20043267D /* View */,
 				651DCEDE297CD8B80043267D /* Title  */,
@@ -131,6 +135,7 @@
 		651DCEE0297CD8D20043267D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				65A91C35297D4FEE004E8C7A /* CellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -148,11 +153,12 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
-		651DCEE2297CD8EC0043267D /* New Group */ = {
+		651DCEE2297CD8EC0043267D /* Logic */ = {
 			isa = PBXGroup;
 			children = (
+				65E5A610297D5AE60054A48F /* Turn.swift */,
 			);
-			path = "New Group";
+			path = Logic;
 			sourceTree = "<group>";
 		};
 		651DCEE3297CDA5B0043267D /* Model */ = {
@@ -186,9 +192,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		651DCEC5297CC3B40043267D /* ConnectFour */ = {
+		651DCEC5297CC3B40043267D /* Konnekt4 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651DCEDA297CC3B60043267D /* Build configuration list for PBXNativeTarget "ConnectFour" */;
+			buildConfigurationList = 651DCEDA297CC3B60043267D /* Build configuration list for PBXNativeTarget "Konnekt4" */;
 			buildPhases = (
 				91FD84980B4EA863BB90FFED /* [CP] Check Pods Manifest.lock */,
 				651DCEC2297CC3B40043267D /* Sources */,
@@ -199,9 +205,9 @@
 			);
 			dependencies = (
 			);
-			name = ConnectFour;
+			name = Konnekt4;
 			productName = ConnectFour;
-			productReference = 651DCEC6297CC3B40043267D /* ConnectFour.app */;
+			productReference = 651DCEC6297CC3B40043267D /* Konnekt4.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +225,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 651DCEC1297CC3B40043267D /* Build configuration list for PBXProject "ConnectFour" */;
+			buildConfigurationList = 651DCEC1297CC3B40043267D /* Build configuration list for PBXProject "Konnekt4" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -232,7 +238,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				651DCEC5297CC3B40043267D /* ConnectFour */,
+				651DCEC5297CC3B40043267D /* Konnekt4 */,
 			);
 		};
 /* End PBXProject section */
@@ -283,12 +289,14 @@
 			files = (
 				651DCEE7297CDAA40043267D /* ViewAssets.swift in Sources */,
 				65B096CE297CEFC7009489BB /* ChangeColor.swift in Sources */,
-				65B096D0297CF014009489BB /* BoardFunctions.swift in Sources */,
 				651DCEEF297CE6460043267D /* AppTimer.swift in Sources */,
+				65E5A60F297D56340054A48F /* BoardFunctions.swift in Sources */,
 				651DCECE297CC3B40043267D /* HomeViewController.swift in Sources */,
 				651DCECA297CC3B40043267D /* AppDelegate.swift in Sources */,
+				65E5A611297D5AE60054A48F /* Turn.swift in Sources */,
 				651DCEF0297CE6460043267D /* ViewControllerLogger.swift in Sources */,
 				651DCEE5297CDA860043267D /* Board.swift in Sources */,
+				65A91C36297D4FEE004E8C7A /* CellView.swift in Sources */,
 				651DCEEE297CE6460043267D /* Alerts.swift in Sources */,
 				651DCEF2297CE6460043267D /* TableViewControllerLogger.swift in Sources */,
 				651DCECC297CC3B40043267D /* SceneDelegate.swift in Sources */,
@@ -453,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.ConnectFour;
+				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.Konnek4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.ConnectFour;
+				PRODUCT_BUNDLE_IDENTIFIER = nobodylikesme.Konnek4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -493,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		651DCEC1297CC3B40043267D /* Build configuration list for PBXProject "ConnectFour" */ = {
+		651DCEC1297CC3B40043267D /* Build configuration list for PBXProject "Konnekt4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				651DCED8297CC3B60043267D /* Debug */,
@@ -502,7 +510,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		651DCEDA297CC3B60043267D /* Build configuration list for PBXNativeTarget "ConnectFour" */ = {
+		651DCEDA297CC3B60043267D /* Build configuration list for PBXNativeTarget "Konnekt4" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				651DCEDB297CC3B60043267D /* Debug */,
